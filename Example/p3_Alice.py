@@ -7,8 +7,12 @@
 
 import Kernel
 
-alice = Kernel.Kernel()
-alice.learn("cn-test.aiml")
+def main():
+    alice = Kernel.Kernel()
+    alice.learn("one-piece.aiml")
 
-while True:
-    print(alice.respond(input('Alice请您提问...>>')))
+    while True:
+        print(alice.respond(input('Alice请您提问...>>')))
+
+if __name__ == "__main__":
+    main()
