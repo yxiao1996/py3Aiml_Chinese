@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<category>
+    <pattern> 谁是你舅舅* </pattern>
+    <template> 肖昱是我舅舅! </template>
+</category>
+
+<category>
+    <pattern> * </pattern>
+    <template>
+        <random>
+        <li>咕噜咕噜</li>
+        <li>呼呼</li>
+        <li>（翻身）</li>
+    </random>
+    </template>
+</category>
+
+</aiml>
