@@ -3,7 +3,7 @@
 <aiml version="1.0">
 
 <category>
-    <pattern> 谁是你舅舅_ </pattern>
+    <pattern> 谁是你舅舅^ </pattern>
     <template> 肖昱是我舅舅! </template>
 </category>
 
@@ -14,6 +14,7 @@
         <li>咕噜咕噜</li>
         <li>呼呼</li>
         <li>（翻身）</li>
+        <li>喵喵</li>
     </random>
     </template>
 </category>

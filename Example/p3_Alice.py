@@ -9,6 +9,7 @@ import Kernel
 
 def main():
     alice = Kernel.Kernel()
+    alice.learn("cn-test.aiml")
     alice.learn("one-piece.aiml")
 
     while True:
