@@ -6,6 +6,7 @@ import Kernel
 app = Flask(__name__)
 one_piece = Kernel.Kernel()
 one_piece.learn("rules/one-piece.aiml")
+one_piece.learn("rules/one-piece-food.aiml")
 
 
 @app.route('/', methods=['GET'])

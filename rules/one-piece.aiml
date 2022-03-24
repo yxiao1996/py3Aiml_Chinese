@@ -3,7 +3,7 @@
 <aiml version="1.0">
 
 <category>
-    <pattern> 谁是你舅舅^ </pattern>
+    <pattern> 谁是你舅舅 </pattern>
     <template> 肖昱是我舅舅! </template>
 </category>
 
