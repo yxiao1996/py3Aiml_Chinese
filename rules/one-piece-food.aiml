@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <aiml version="1.0">
+
+<category>
+    <pattern> 问个食物问题 </pattern>
+    <template>
+        <random>
+            <li> 我饿了! 快给我找点吃的 </li>
+            <li> 嗝嗝, 今天吃得好饱... </li>
+        </random>
+    </template>
+</category>
+
 <category>
     <pattern> 一坨喜欢吃什么 </pattern>
     <template>

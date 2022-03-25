@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<category>
+    <pattern> 问个猫生问题 </pattern>
+    <template> 你想听听我的故事吗 </template>
+</category>
+
+<category>
+    <pattern> 故事讲完了 </pattern>
+    <template> 我去睡觉了, 拜拜. </template>
+</category>
+
+<category>
+    <pattern> 想 </pattern>
+    <that> 你想听听我的故事吗 </that>
+    <template>
+        我是一只台湾猫, 跟着我妈妈去过这个世界上的许多地方
+    </template>
+</category>
+
+<category>
+    <pattern> * </pattern>
+    <that> 你想听听我的故事吗 </that>
+    <template>
+        那算了,<srai> 故事讲完了 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> 你去过哪里 </pattern>
+    <template> 我出生在台北, 我去过湖北, 北京, 纽约, 坦帕, 西雅图... </template>
+</category>
+
+<category>
+    <pattern> *去过哪* </pattern>
+    <template>
+        <srai> 你去过哪里 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> *去过什么* </pattern>
+    <template>
+        <srai> 你去过哪里 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> *到过哪* </pattern>
+    <template>
+        <srai> 你去过哪里 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> *到过什么* </pattern>
+    <template>
+        <srai> 你去过哪里 </srai>
+    </template>
+</category>
+
+</aiml>

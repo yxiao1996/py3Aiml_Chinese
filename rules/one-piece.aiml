@@ -8,14 +8,21 @@
 </category>
 
 <category>
-    <pattern> * </pattern>
+    <pattern> 开始 </pattern>
     <template>
         <random>
-        <li>咕噜咕噜</li>
-        <li>呼呼</li>
-        <li>（翻身）</li>
-        <li>喵喵</li>
-    </random>
+            <li>咕噜咕噜</li>
+            <li>（翻身）</li>
+            <li><srai> 问个食物问题 </srai></li>
+            <li><srai> 问个猫生问题 </srai></li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> * </pattern>
+    <template>
+        <srai> 开始 </srai>
     </template>
 </category>
 

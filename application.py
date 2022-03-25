@@ -12,10 +12,12 @@ one_piece.learn("rules/one-piece-food.aiml")
 @app.route('/', methods=['GET'])
 def main():
     if "question" not in request.args.keys():
-        message = "喵喵"
+        question = "开始"
     else:
         question = request.args.get("question")
-        message = one_piece.respond(question)
+        if question == "":
+            question = "开始"
+    message = one_piece.respond(question)
     return render_template('index.html', one_piece_message=message)
 
 
