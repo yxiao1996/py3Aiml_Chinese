@@ -12,7 +12,6 @@
     <template>
         <random>
             <li>咕噜咕噜</li>
-            <li>（翻身）</li>
             <li><srai> 问个食物问题 </srai></li>
             <li><srai> 问个猫生问题 </srai></li>
         </random>
