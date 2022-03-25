@@ -49,6 +49,39 @@
 </category>
 
 <category>
+    <pattern> *吃了什么 </pattern>
+    <template>
+        <srai> 吃了什么 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> *吃了什么* </pattern>
+    <template>
+        <srai> 吃了什么 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> 吃了什么* </pattern>
+    <template>
+        <srai> 吃了什么 </srai>
+    </template>
+</category>
+
+<category>
+    <pattern> 吃了什么 </pattern>
+    <template> 我吃了
+        <random>
+            <li>肖昱舅舅买的罐头</li>
+            <li>从一条那抢来的猫草</li>
+            <li>零食肉干</li>
+            <li>塑料袋</li>
+        </random>
+    </template>
+</category>
+
+<category>
     <pattern> 你喜欢吃*吗 </pattern>
     <template>
         <srai> 喜欢吃<star index="1"/>吗 </srai>
@@ -102,8 +135,9 @@
     <template>
         <think><set name="food_name"><star/></set></think>
         <condition name="food_name">
-            <li value="罐 头"> 喜欢！快给我买！ </li>
-            <li value="猫 草"> 喜欢！快给我买！ </li>
+            <li value="罐 头"> 喜欢!快给我买!我要鸡肝味的 </li>
+            <li value="猫 草"> 喜欢!快给我买! </li>
+            <li value="肉 干"> 喜欢!快给我买! </li>
             <li>
                 <random>
                     <li> <star/>是人吃的，我才不吃<star/>呢 </li>
